@@ -8,7 +8,11 @@
 </head>
 <body>
     <script>
-
+        $(document).ready(function(){
+            $("button").click(function(){
+                $("#div1").addClass("warning");
+            });
+        });
     </script>
     <style>
         .warning{
